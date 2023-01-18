@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: hero;
+    overflow-x: hidden;
+}
+
+.box {
+    width: 100vw;
+    height: 100vh;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    background-color: #1CA0B4;
+}
+
+img{
+    width: 70vw;
+}
+
+.spill {
+    background-color: #81D3EE;
+}
+
+.teacher {
+    background-color: #1CA0B4;
+}
+
+.video {
+    background-color: #81D3EE;
+}
+
+.elevarbeid {
+    background-color: #1CA0B4;
+}
+
+.tittle{
+    font-size: 5vw;
+}
+
+.footer{
+    width: 100vw;
+    height: 10vh;
+    background-color: #fff;
+}
