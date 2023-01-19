@@ -23,6 +23,32 @@ img{
     width: 70vw;
 }
 
+.topLogo{
+    height: 10vw;
+    top: 0;   
+    position: fixed;
+    transition: 1s;
+    margin-bottom: 90vw;
+}
+
+.topLogo img{
+    top: 0;
+    left: 0;
+    width: 30vw;
+    transition: 1s;
+}
+
+.fake{
+    background-color: #1CA0B4;
+    height: 80vh;
+}
+
+/* .fakeMargin{
+    background-color: #1CA0B4;
+    margin-top: 30vw;
+    transition: 1s;
+} */
+
 .spill {
     background-color: #81D3EE;
 }
