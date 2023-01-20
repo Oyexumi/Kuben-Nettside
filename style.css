@@ -100,3 +100,19 @@ button{
     background-image: url(jonathanarbeid/jonathanss.jpg);
     background-size: cover;
 }
+.it-tekst {
+    text-align: left;
+    font-size: 1.5vw;
+    padding-left: 2%;
+    width: 900px;
+    color: rgb(23, 23, 23);
+    word-wrap: break-word;
+}
+.utvikler {
+    background-color: #62cfe0;
+}
+.fagbrev {
+    background-color: #2572a2;
+    align-self: left;
+    background-image: url("media/kub.png");
+}
