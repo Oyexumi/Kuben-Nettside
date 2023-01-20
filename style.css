@@ -19,7 +19,7 @@
     background-color: #1CA0B4;
 }
 
-img{
+.kubenlogo{
     width: 70vw;
 }
 
@@ -73,4 +73,30 @@ img{
     width: 100vw;
     height: 10vh;
     background-color: #fff;
+}
+
+button{
+    width: 5vw;
+    height: 3vw;
+}
+
+.giftemplate{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.gif{
+    width: 50vw;
+    height: 45vh;
+    border: 3px solid #000;
+}
+
+.omvisning{
+    width: 100vw;
+    height: 90vh;
+}
+
+.elev1{
+    background-image: url(jonathanarbeid/jonathanss.jpg);
+    background-size: cover;
 }

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Del 2/Snitt_Kalkulator/style.css">
+    <title>Karakterkalkulator</title>
+</head>
+
+<body>
+    <h1>Karakterkalkulatoren</h1>
+    <h2>Kalkulator for fag fra 10.trinn</h2>
+    <h3>Snittet for Kuben Studiespesialisering er 4.45</h2>
+    <table>
+        <form action="/Del 2/Snitt_Kalkulator/index.js" method="POST">
+            <tr>
+                <th>Fag</th>
+                <th>Karakter</th>
+            </tr>
+            <tr>
+                <td><b>Musikk</b></td>
+                <td><input id="fag1" type="number" maxlength="1" max="6" min="1" class="input-elements"></td>
+            </tr>
+            <tr>
+                <td><b>Norsk Muntlig</b></td>
+                <td><input id="fag2" type="number" max="6" min="1" class="input-elements"></td>
+            </tr>
+            <tr>
+                <td><b>Naturfag</b></td>
+                <td><input id="fag3" type="number" max="6" min="1" class="input-elements"></td>
+            </tr>
+            <tr>
+                <td><b>Kunst og Håndverk</b></td>
+                <td><input id="fag4" type="number" max="6" min="1" class="input-elements"></td>
+            </tr>
+            <tr>
+                <td><b>Kroppsøving</b></td>
+                <td><input id="fag5" type="number" max="6" min="1" class="input-elements" ></td>
+            </tr>
+            <tr>
+                <td><b>Matematikk</b></td>
+                <td><input id="fag6" type="number" max="6" min="1" class="input-elements"></td>
+            </tr>
+            <tr>
+                <td><b>Mat og helse</b></td>
+                <td><input id="fag7" type="number" max="6" min="1" class="input-elements"></td>
+            </tr>
+            <tr>
+                <td><b>Valgfag</b></td>
+                <td><input id="fag8" pattern="{1}" type="number" max="6" min="1" class="input-elements"></td>
+            </tr>
+            <tr>
+                <td><b>Norsk Skriftlig</b></td>
+                <td><input id="fag9" type="number" max="6" min="1" class="input-elements"></td>
+            </tr>
+            <tr>
+                <td><b>Engelsk</b></td>
+                <td><input id="fag10" type="number" max="6" min="1" class="input-elements"></td>
+            </tr>
+            <tr>
+                <td><b>Samfunnsfag</b></td>
+                <td><input id="fag11" type="number" max="6" min="1" class="input-elements"></td>
+            </tr>
+        </form>
+    </table>
+
+    <div class="Container">
+        <button id="knapp" type="submit">Beregn snitt</button>
+    </div>
+
+    <div class="resultatboks">
+        <p id="resultat"></p>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>

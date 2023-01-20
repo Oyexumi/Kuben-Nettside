@@ -1,0 +1,61 @@
+html {
+    background-image: linear-gradient(rgb(141, 196, 206), rgb(143, 101, 241));
+
+}
+
+* {
+    font-family: "Times New Roman", Times, serif;
+}
+
+h1, h2, h3 {
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+p {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+
+
+td {
+    background-color: white;
+    border: solid 2px black;
+}
+
+.Container {
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.resultatboks {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    height: 70px;
+    border-radius: 10px;
+    opacity: 70%;
+    border: 3px solid darkgray;
+}
+th {
+    color: white;
+    font-size: 20px;
+}
+
+input {
+    width: 100px;
+    padding: 8px;
+}
+
+button {
+    border-radius: 3px;
+    margin: 5px;
+    padding: 10px;
+}
+
+table {
+    display: flex;
+    justify-content: center;
+}

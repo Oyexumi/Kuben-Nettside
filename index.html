@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,31 +8,74 @@
     <title>IM-Kuben</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <section class="content">
-    <div class="box logo">
-        <img src="media/IM_Kuben-vgs.svg" alt="IM Kuben Logo">
-    </div>
-    <div class="box fake">
-    </div>
-    <div class="box spill">
-        <p class="tittle">bolle</p>
-    </div>
-    <div class="box teacher">
-        <p class="tittle">bolle</p>
-    </div>
-    <div class="box video">
-        <p class="tittle">bolle</p>
-    </div>
-    <div class="box elevarbeid">
-        <p class="tittle">bolle</p>
-    </div>
+        <div class="box logo">
+            <img src="media/IM_Kuben-vgs.svg" alt="IM Kuben Logo" class="kubenlogo">
+        </div>
+        <div class="box fake">
+        </div>
+        <div class="box spill">
+            <div class="game">
+                <div class="tiitle">
+                    <h1>Rock, Paper and Scissors</h1>
+                </div>
 
-    <footer></footer>
-</section>
+                <div class="select">
+                    <h3>please select your choice</h3>
 
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
-<script defer async type="text/javascript" src="main.js"></script>
+                    <div class="imgFlex">
+                        <img src="media/rock.jpg" alt="Rock" title="Rock" data-option="Rock">
+                        <img src="media/paper.jpg" alt="Paper" title="Paper" data-option="Paper">
+                        <img src="media/scissors.jpg" alt="Scissors" title="Scissors" data-option="Scissors">
+                    </div>
+
+                    <button class="startGame">Start Game</button>
+
+                </div>
+
+                <div class="results">
+
+                    <div class="panelLeft">
+                        <h3>Game`s result</h3>
+                        <p>Your choice: <span data-summary="your-choice" class="spanResult"></span></p>
+                        <p>AI choice: <span data-summary="ai-choice" class="spanResult"></span></p>
+                        <p>Winner: <span data-summary="who-win" class="spanResult"></span></p>
+                    </div>
+
+                    <div class="panelRight">
+                        <h3>Overall stats</h3>
+                        <p class="numbers">Games: <span class="spanResult">0</span></p>
+                        <p class="wins">Wins: <span class="spanResult">0</span></p>
+                        <p class="losses">Losses: <span class="spanResult">0</span></p>
+                        <p class="draws">Draws: <span class="spanResult">0</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="box teacher"><div class="giftemplate">
+            <img src="media/alfsier.gif" alt="" class="gif">
+            <img src="media/mariesier.gif" alt="" class="gif">
+            <img src="media/shaziasier.gif" alt="" class="gif">
+            <img src="media/eriksier.gif" alt="" class="gif">
+        </div>
+        </div>
+        <div class="box video">
+            <video src="media/omvisning.mp4" class="omvisning" controls></video>
+        </div>
+        <div class="box elevarbeid">
+            <div class="box teacher"><div class="giftemplate">
+                <img src="media/MicrosoftTeams-image.png" alt="" class="gif">
+                <a href="jonathanarbeid/index.html" class="gif elev1"></a>
+            </div>
+        </div>
+
+        <footer></footer>
+    </section>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+    <script defer async type="text/javascript" src="main.js"></script>
 </body>
 
 </html>
